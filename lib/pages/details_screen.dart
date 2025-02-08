@@ -1,4 +1,4 @@
-import 'package:finle/model/item.dart';
+import 'package:finle/models/item.dart';
 import 'package:finle/shard/appbar.dart';
 import 'package:finle/shard/colors.dart';
 import 'package:flutter/material.dart';

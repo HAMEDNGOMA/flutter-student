@@ -1,8 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
-
 import 'package:finle/shard/appbar.dart';
-import 'package:finle/model/item.dart';
+import 'package:finle/models/item.dart';
 // ignore: unused_import
 import 'package:finle/shard/colors.dart';
 
@@ -10,15 +9,12 @@ import 'package:flutter/material.dart';
 
 import 'package:finle/pages/checkout.dart';
 
-
 class Home extends StatelessWidget {
   // ignore: use_super_parameters
   const Home({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    
-
     return Scaffold(
         body: Padding(
           padding: const EdgeInsets.only(top: 22),
@@ -31,29 +27,16 @@ class Home extends StatelessWidget {
               itemCount: items.length,
               itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
-                   
-                    onTap: () {
+                  onTap: () {
                     Navigator.pushNamed(context, "/");
-                      
-                      
-                      
-                    
                   },
-                 
-
-    
-
-                  
-                    
-                child: GridTile(
+                  child: GridTile(
                     footer: GridTileBar(
 // backgroundColor: Color.fromARGB(66, 73, 127, 110),
-                    
-                       trailing: IconButton(
+
+                      trailing: IconButton(
                           color: const Color.fromARGB(255, 138, 13, 90),
-                          onPressed: () {
-                            
-                          },
+                          onPressed: () {},
                           icon: const Icon(Icons.check)),
 
                       leading: const Text("10"),
@@ -86,10 +69,10 @@ class Home extends StatelessWidget {
                   const UserAccountsDrawerHeader(
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("assetss/imags/692ccd8d30da587aa40c8e6d3d12b727.jpg"),
+                          image: AssetImage(
+                              "assetss/imags/692ccd8d30da587aa40c8e6d3d12b727.jpg"),
                           fit: BoxFit.cover),
                     ),
-                    
                     accountEmail: Text("otur@gmail.com"),
                     accountName: Text("otur",
                         style: TextStyle(
@@ -101,8 +84,6 @@ class Home extends StatelessWidget {
                       leading: const Icon(Icons.home),
                       onTap: () {
                         Navigator.pushNamed(context, "/");
-                          
-                        
                       }),
                   ListTile(
                       title: const Text("My products"),
@@ -124,16 +105,11 @@ class Home extends StatelessWidget {
                       leading: const Icon(Icons.person),
                       onTap: () {
                         Navigator.pushNamed(context, "/");
-                          
-                  
-                  
                       }),
                   ListTile(
                       title: const Text("Logout"),
                       leading: const Icon(Icons.exit_to_app),
-                      onTap: () {
-                        
-                      }),
+                      onTap: () {}),
                 ],
               ),
               Container(
