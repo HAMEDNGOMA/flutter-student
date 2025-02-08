@@ -1,0 +1,1 @@
+ /Users/aaminco/Documents/GitHub/flutter-student-project/.dart_tool/flutter_build/e717d11d42c93573ddc793ce1ed6aaff/native_assets.yaml: 

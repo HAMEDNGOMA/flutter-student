@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564791783960",
+    "project_id": "student-flutter-project",
+    "storage_bucket": "student-flutter-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564791783960:android:41da037eae2c06e235c96d",
+        "android_client_info": {
+          "package_name": "com.example.finle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmJru3nL0awPnt3_nCRYIFaduejOf8khI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
